@@ -1,0 +1,38 @@
+print("YouTube Rating ve Rating Yüzdesi hesaplama aracına hoş geldiniz.. \n")
+
+like = int(input("Like \n> "))
+
+dislike = int(input("\nDislike \n> "))
+
+rating = like / (like + dislike)
+
+print("\n => Videonun rating'i:", rating)
+
+print("\n")
+
+ratingyuzde = rating*100
+
+print(" => Videonun beğeni oranı:", ratingyuzde)
+
+if ratingyuzde > 50:
+
+	print(" -> Bu video Beğenildi! :)")else:
+
+	print(" -> Bu video Beğenilmedi :( ")
+
+	
+
+if ratingyuzde == 50:
+
+	print(" -> Ama Bu Video Orta derecede beğenilip beğenilmedi")
+
+if ratingyuzde == 100:
+
+	print(" -> Ve Bu video ÇOOOOOOOK BEĞENİLDİ!")
+
+	
+
+if ratingyuzde > 95:
+
+	print(" -> Ve Bu video Çok Beğenildi\n")
+
